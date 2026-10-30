@@ -32,6 +32,5 @@ print(df_facilities["ARPElevation"].max())
 print(df_facilities["ARPElevation"].min()) 
 
 #Write to xlsx Files!
-#EX:
 df_seaplane=df_facilities[df_facilities["Type"]=="SEAPLANE BASE"] 
 df_seaplane.to_excel("./seaplane.xlsx",index=False)
